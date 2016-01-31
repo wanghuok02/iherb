@@ -13,6 +13,7 @@ BOT_NAME = 'iherb'
 
 SPIDER_MODULES = ['iherb.spiders']
 NEWSPIDER_MODULE = 'iherb.spiders'
+DOWNLOAD_DELAY = 1
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

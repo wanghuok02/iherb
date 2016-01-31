@@ -9,9 +9,10 @@
 from scrapy.item import Item, Field
 
 
-class IherbItem(scrapy.Item):
+class IherbItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    url = Field()
     brand = Field()
-    description = Field()
-    price = Field()
+    desc = Field()
+    price = Field(default="1000")
