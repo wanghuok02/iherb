@@ -1,6 +1,8 @@
 /.vagrant
 /scrapy.iml
 *.pyc
+*.csv
+*.json
 _trial_temp*
 dropin.cache
 docs/build
